@@ -1,4 +1,6 @@
 import './globals.css'
+import { Gluten } from 'next/font/google'
+const gluT = Gluten({ subsets: ['latin'] })
 
 export const metadata = {
   title: '🎴:📼:1w',
@@ -12,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={gluT.className} >{children}</body>
     </html>
   )
 }
