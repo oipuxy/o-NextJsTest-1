@@ -4,7 +4,7 @@ echo (set_color FEDB39)"***"
 echo (set_color FEDB39)"This script is for downloading this folder"
 echo (set_color FEDB39)"without git clone bastar"
 echo (set_color FEDB39)"***"
-echo (set_color FEDB39)"https://github.com/liqowomo/lq-uestcdg-1/-/tree/lq/a"
+echo (set_color FEDB39)"https://github.com/sniffowomo/sn-solbf-1/tree/ns/y"
 echo (set_color FEDB39)"***"
 echo (set_color FEDB39)"Installer fetch"
 echo (set_color blue) ">brew install fetch "
@@ -19,15 +19,15 @@ echo ""
 echo "Where to download ?:"
 read -l diro
 echo (set_color blue ) "fetch \\"
-echo (set_color blue ) "    --repo="https://github.com/liqowomo/lq-uestcdg-1 \\" "
-echo (set_color blue ) "    --branch="w1z" \\"
-echo (set_color blue ) "    --source-path="l/l" \\"
+echo (set_color blue ) "    --repo="https://github.com/sniffowomo/sn-solbf-1 \\" "
+echo (set_color blue ) "    --branch="ns" \\"
+echo (set_color blue ) "    --source-path="y" \\"
 echo (set_color blue ) "    --progress \\ "
 echo (set_color blue ) "    $diro "
 fetch \
-    --repo="https://github.com/liqowomo/lq-uestcdg-1" \
-    --branch="w1z" \
-    --source-path="l/l" \
+    --repo="https://github.com/sniffowomo/sn-solbf-1" \
+    --branch="ns" \
+    --source-path="y" \
     --progress \
     $diro
 ls -al $diro
